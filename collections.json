@@ -12,7 +12,12 @@
     "aspects" : [ {
       "@class" : "milkman.ui.plugin.rest.domain.RestHeaderAspect",
       "dirty" : false,
-      "entries" : [ ]
+      "entries" : [ {
+        "id" : "00ca6553-8ebc-46dd-bc4d-4bc70e20ae47",
+        "name" : "hedar",
+        "value" : "valoare",
+        "enabled" : true
+      } ]
     }, {
       "@class" : "milkman.ui.plugin.rest.domain.RestBodyAspect",
       "dirty" : false,
@@ -20,7 +25,15 @@
     }, {
       "@class" : "milkman.ui.plugin.rest.domain.RestQueryParamAspect",
       "dirty" : false,
-      "entries" : [ ]
+      "entries" : [ {
+        "id" : "854d99e4-5f81-441e-bd49-3560a69edf18",
+        "name" : "asd",
+        "value" : "asf"
+      }, {
+        "id" : "4aea7594-ea0b-43af-9567-02e70401d5db",
+        "name" : "",
+        "value" : ""
+      } ]
     }, {
       "@class" : "milkman.plugin.note.NotesAspect",
       "dirty" : false,
@@ -35,7 +48,7 @@
       "query" : "",
       "queryHistory" : [ ]
     } ],
-    "url" : "https://jsonplaceholder.typicode.com/todos/1",
+    "url" : "https://jsonplaceholder.typicode.com/todos/1?asd=asf&=",
     "httpMethod" : "GET"
   } ],
   "folders" : [ ]
